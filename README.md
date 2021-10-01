@@ -22,19 +22,18 @@ Use Opencore Configurator to make changes in config.plist.
 #### Update
 
 - `OpenCore` v0.7.3
-- `AppleALC` v1.5.8
-- `CPUFriend` v1.2.4
-- `HibernationFixup` v1.3.9
-- `Lilu` v1.5.1
-- `VirtualSMC` v1.2.1
+- `AppleALC` v1.6.4
+- `HibernationFixup` v1.4.3
+- `Lilu` v1.5.6
+- `VirtualSMC` v1.2.7
 - `VoodooI2C` v2.6.5
-- `VoodooPS2Controller` v2.2.2
-- `WhateverGreen` v1.4.8
+- `VoodooPS2Controller` v2.2.5
+- `WhateverGreen` v1.5.3
 
 #### Add
 
-- `AirportItlwm` v1.3.0
-- OC resources(modern)
+- `AirportItlwm` v2.0.0
+- OC resources(default 3 themes opencore (preorder Golden))
 
 #### Change
 
