@@ -1,4 +1,6 @@
-# HP ProBook 430/440/450 G6 Hackintosh
+# HP ProBook 450 G6 Hackintosh
+
+Use Opencore Configurator to make changes in config.plist.
 
 ## Configuration
 
@@ -11,7 +13,7 @@
 
 ## MacOS Versions Supported:
 
-- macOS Big Sur
+- macOS Big Sur 11.5.2
 
 ## Changelog
 
@@ -19,7 +21,7 @@
 
 #### Update
 
-- `OpenCore` v0.6.7
+- `OpenCore` v0.7.3
 - `AppleALC` v1.5.8
 - `CPUFriend` v1.2.4
 - `HibernationFixup` v1.3.9
@@ -37,10 +39,15 @@
 #### Change
 
 - Change `alcid=11` boot-args(fix line-in mic)
+- Proccessor type `1545`
+- Bump opencore and kext
 
 #### Remove
 
 - Remove `CodecComander`
+- Remove `SMCBatteryManager.kext`
+- Remove `CPUFriend.kext`
+- Remove `USBPorts.kext`
 
 ## What is Working?
 
@@ -55,8 +62,6 @@
 - [x] USB 3.0
 - [x] Battery Management (thanks to [anor4k](https://www.tonymacx86.com/threads/guide-how-to-patch-dsdt-for-working-battery-status.116102/page-500#post-2021126) and [e285ne](https://www.tonymacx86.com/threads/guide-hp-probook-430-g6-whiskey-lake.282302/page-6#post-2147595))
 - [x] Brightness
-- [x] Brightness fn keys (if not working, turn off the laptop and hold the power button for 30 seconds to reset EC)
-- [x] Built-in camera
 - [x] Built-in mic
 - [x] Line-in mic
 - [x] Bluetooth Intel
@@ -67,12 +72,13 @@
 
 - [ ] Fingerprint reader
 - [ ] SD Card Reader
+- [ ] Brightness fn keys (if not working, turn off the laptop and hold the power button for 30 seconds to reset EC)
+- [ ] Built-in camera
 
 ## BIOS settings
 
 - [ ] Fast Boot
 - Secure Boot Configurations - Configure Legacy Support and Secure Boot = Legacy Support Disable and Secure Boot Disable
-- [ ] VTx in System Options
 - Wake On LAN = Disabled
 - Wake On WLAN = Disabled
 - Video Memory size = 64 MB
